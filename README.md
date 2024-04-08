@@ -7,13 +7,17 @@ Curl command is used to transfer the data with URLs. Curl supports various trans
 To speed up server requests for various cybersecurity functions. curl is especially helpful in penetration testing, such as simulating heavy attacks on a server to check its uploading and downloading speeds.
 
 <h2>Difference between curl & wget</h2>
+
 1. The curl & wget are both used for fetching the data over the web. Using curl we can send any type of requests to the URLs whereas the wget is used to download the files.
+
 2. curl support all types of protocols whereas wget supports only https,http and ftp protocols.
+
 3. curl serves the output in standard format whereas wget by default stores the output in a file.
+   
 4. curl supports custom headers, user authentication, proxy supports and file uploads.. Etc whereas wget is simpler and more straightforward for basic file downloads. It has options for resuming interrupted downloads, recursive downloads, and mirroring entire websites.
+
 5. curl is mostly used for sending custom HTTP requests, interacting with APIs, or testing web services. wget is commonly used for downloading files from URLs, mirroring websites, or fetching files in non-interactive mode.
 6. curl is also used for handling output formats, including saving to a file, printing to stdout, or piping to other commands. wget primarily saves files to disk, but it also offers options for displaying progress information and logging output to files.
-
 
 <h2>Which details curl command gives about URL:</h2>
 
